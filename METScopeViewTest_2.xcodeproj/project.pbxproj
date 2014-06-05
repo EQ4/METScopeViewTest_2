@@ -21,6 +21,8 @@
 		1F7A32DE193E2B5C008B08AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7A32C0193E2B5C008B08AA /* UIKit.framework */; };
 		1F7A32E6193E2B5C008B08AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A32E4193E2B5C008B08AA /* InfoPlist.strings */; };
 		1F7A32E8193E2B5C008B08AA /* METScopeViewTest_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A32E7193E2B5C008B08AA /* METScopeViewTest_2Tests.m */; };
+		1F7A32F5193E2C65008B08AA /* AudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A32F2193E2C65008B08AA /* AudioController.m */; };
+		1F7A32F6193E2C65008B08AA /* METScopeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A32F4193E2C65008B08AA /* METScopeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		1F7A32E3193E2B5C008B08AA /* METScopeViewTest_2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "METScopeViewTest_2Tests-Info.plist"; sourceTree = "<group>"; };
 		1F7A32E5193E2B5C008B08AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F7A32E7193E2B5C008B08AA /* METScopeViewTest_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = METScopeViewTest_2Tests.m; sourceTree = "<group>"; };
+		1F7A32F1193E2C65008B08AA /* AudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioController.h; path = METScopeViewTest_2/AudioController.h; sourceTree = "<group>"; };
+		1F7A32F2193E2C65008B08AA /* AudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioController.m; path = METScopeViewTest_2/AudioController.m; sourceTree = "<group>"; };
+		1F7A32F3193E2C65008B08AA /* METScopeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = METScopeView.h; path = METScopeViewTest_2/METScopeView.h; sourceTree = "<group>"; };
+		1F7A32F4193E2C65008B08AA /* METScopeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = METScopeView.m; path = METScopeViewTest_2/METScopeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 		1F7A32B0193E2B5C008B08AA = {
 			isa = PBXGroup;
 			children = (
+				1F7A32F7193E2C73008B08AA /* Classes */,
 				1F7A32C2193E2B5C008B08AA /* METScopeViewTest_2 */,
 				1F7A32E1193E2B5C008B08AA /* METScopeViewTest_2Tests */,
 				1F7A32BB193E2B5C008B08AA /* Frameworks */,
@@ -150,6 +157,17 @@
 				1F7A32E4193E2B5C008B08AA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F7A32F7193E2C73008B08AA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1F7A32F1193E2C65008B08AA /* AudioController.h */,
+				1F7A32F2193E2C65008B08AA /* AudioController.m */,
+				1F7A32F3193E2C65008B08AA /* METScopeView.h */,
+				1F7A32F4193E2C65008B08AA /* METScopeView.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F7A32F6193E2C65008B08AA /* METScopeView.m in Sources */,
 				1F7A32D3193E2B5C008B08AA /* ViewController.m in Sources */,
 				1F7A32CD193E2B5C008B08AA /* AppDelegate.m in Sources */,
+				1F7A32F5193E2C65008B08AA /* AudioController.m in Sources */,
 				1F7A32C9193E2B5C008B08AA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
